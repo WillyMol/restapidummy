@@ -14,7 +14,7 @@ router.get('/', async (req,res) => {
         res.status(500).json({ message : err.message });
     }
 });
-
+//tytyty
 //2) getting One. (a Thing) from mongoDB
 router.get('/:deviceId', getDevice, async (req,res) =>{
     res.json(res.device);
